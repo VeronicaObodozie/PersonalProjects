@@ -92,7 +92,7 @@
     <section data-bs-version="5.1" class="menu menu1" once="menu" id="sidebar">
 
         <div class="w3-sidebar w3-bar-block w3-indigo w3-card" style="width:160px;">
-            <a href="#" class="w3-bar-item w3-button">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button">Home 1</a>
             <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
                 Projects <i class="fa fa-caret-down"></i>
             </button>
@@ -102,8 +102,8 @@
                 <a href="#soot" class="w3-bar-item w3-button">Space and Soot</a>
             </div>
 
-            <a href="#initiatives" class="w3-bar-item w3-button">Initiatives 2</a>
-            <a href="#pubntalks" class="w3-bar-item w3-button">Publicatins and Talks 3</a>
+            <a href="#initiatives" class="w3-bar-item w3-button">Initiatives</a>
+            <a href="#pubntalks" class="w3-bar-item w3-button">Publicatins and Talks</a>
         </div>
 
         <!-- Top menu on small screens -->
@@ -117,29 +117,132 @@
 
     </section>
 
-        <script>
-            function myAccFunc() {
-                var x = document.getElementById("demoAcc");
-                if (x.className.indexOf("w3-show") == -1) {
-                    x.className += " w3-show";
-                    x.previousElementSibling.className += " w3-green";
-                } else {
-                    x.className = x.className.replace(" w3-show", "");
-                    x.previousElementSibling.className =
-                        x.previousElementSibling.className.replace(" w3-green", "");
-                }
-                // Script to open and close sidebar
-                function w3_open() {
-                    document.getElementById("mySidebar").style.display = "block";
-                    document.getElementById("myOverlay").style.display = "block";
-                }
+    <!-- Projects -->
+    <section data-bs-version="5.1" class="article5 cid-sz5dt1rNPS" id="projectsBase">
+        <div class="w3-main" style="margin-left:340px;margin-right:40px">
+            <!-- Intro and breakdown -->
+            <div class="w3-container" style="margin-top:80px">
+                <h1 class="w3-jumbo"><b>PROJECTS</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <p>
+                    Although most of the projects and initiatives are in early stages, this gives a map of how I aim to contribute.
+                </p>
+                <br>
+            </div>
+            <!--Website -->
+            <div class="w3-container" style="margin-top:80px" id="website">
+                <h1 class="w3-xxxlarge w3-text-red"><b>Website</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <p>
+                    Building this website was a project in itself, as I didn’t have experience in the entire process. Previously I have been tasked with updating content, bit in this I worked on design, layout, as well. My initial guess was downloading templates and remix them, from my learning style I should’ve guessed that wouldn’t work. Shoutout to W3scholls for coming through with detailed tutorials.
+                    Like every journey it was a bit steep, but these are tags I had used, and HTML and CSS was my first coding language back in 2015 while spending my summer in codecademy. This is a living document, so as I learn the page itself improves.
+                </p>
+            </div>
+            <!--agritech -->
+            <div class="w3-container" style="margin-top:80px" id="agritech">
+                <h1 class="w3-xxxlarge w3-text-red"><b>Agricultural Technology</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <p>
+                    Building this website was a project in itself, as I didn’t have experience in the entire process. Previously I have been tasked with updating content, bit in this I worked on design, layout, as well. My initial guess was downloading templates and remix them, from my learning style I should’ve guessed that wouldn’t work. Shoutout to W3scholls for coming through with detailed tutorials.
+                    Like every journey it was a bit steep, but these are tags I had used, and HTML and CSS was my first coding language back in 2015 while spending my summer in codecademy. This is a living document, so as I learn the page itself improves.
+                </p>
+            </div>
+            <!--soot -->
+            <div class="w3-container" style="margin-top:80px" id="soot">
+                <h1 class="w3-xxxlarge w3-text-red"><b>Space and Soot</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <p>
+                    Paper in the wrks on some of the reasons proposed as the cause of Soot including illegal refining, the environmental and health effects, and how Space applications can be used to mitigate these issues, with Rivers State as a case study.
+                </p>
+            </div>
 
-                function w3_close() {
-                    document.getElementById("mySidebar").style.display = "none";
-                    document.getElementById("myOverlay").style.display = "none";
-                }
+        </div>
+    </section>
+
+    <!-- Initiatives -->
+    <section data-bs-version="5.1" class="article5 cid-sz5dt1rNPS" id="initiatives">
+        <div class="w3-main" style="margin-left:340px;margin-right:40px">
+            <!-- Intro and breakdown -->
+            <div class="w3-container" style="margin-top:80px">
+                <h1 class="w3-jumbo"><b>INITIATIVES</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <p>
+                    Highlights initiatives that are implemented, although some are in the works and will be added accordingly.
+                </p>
+                <br>
+            </div>
+            <!--BWISTEM -->
+            <div class="w3-container" style="margin-top:80px">
+                <h1 class="w3-xxxlarge w3-text-red"><b>Black Women in STEM</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <p>
+                    The goal is to build a community of Black Women Engineering and Tech. A reminder that you are not alone. A space to share experiences, learn from tips and uplift.
+                </p>
+                <blockquote>
+                    Are you a black woman in Science Technology Engineering and Maths (STEM)? Have you constantly found yourself in teams/environments where you're an only?
+
+                    This space aims to foster conversations and connections, a constant reminder that you're not alone. While simultaneously learning from inspiring women. It aims to provide both professional and social networking opportunities, hold space and share ideas as well as listen to the most valuable thing you own- your story
+
+                    Whether you were in STEM and left, are looking to get into a STEM field or are currently in the space you're welcome to join.
+
+                    Looking forward to having chats, possible mentorship, networking sessions, socials and a fun time overall. As this is a new group and the initiative is still being setup, you're encouraged to suggest some events you'd like.
+                </blockquote>
+                <p>
+                    You can join our Slack space <a href="https://join.slack.com/t/blackwomenengineers/shared_invite/zt-1c09o1jnm-lSJpOYwIUEmuuqPKERie1A" class="text-success"><strong>here</strong></a> to stay updated.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section data-bs-version="5.1" class="article5 cid-sz5dt1rNPS" id="pubntalks">
+        <div class="w3-main" style="margin-left:340px;margin-right:40px">
+            <!-- Intro and breakdown -->
+            <div class="w3-container" style="margin-top:80px">
+                <h1 class="w3-jumbo"><b>PUBLICATIONS AND TALKS</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <p>
+                    There’s a blog post about these which can be found: https://adacomestocanada.blogspot.com/2021/11/preparing-abstracts-and-conferences.html
+                </p>
+                <br>
+            </div>
+            <!--Published papers and conference presentations -->
+            <div class="w3-container" style="margin-top:80px">
+                <h1 class="w3-xxxlarge w3-text-red"><b>Papers</b></h1>
+                <hr style="width:50px;border:5px solid red" class="w3-round">
+                <ol style="text-align: left;">
+                <li>ReLaCa 2021 Presentation: <a href="https://videoencontexto.com/veronica-chigoziri-obodozie-mitigating-impacts-of-pandemics-through-infrastructure-and-logistics-sup/ ">Mitigating Impacts of Pandemics through Infrastructure and Logistics Supply</a><br /></li>
+                <li>the role space assets can play in remote healthcare delivery during pandemics, IAC-21,E5,4,9,x64579, 2021-10-29</li>
+                <li>mitigating the impacts of pandemics on the supply chain using earth observation data., IAC-21,B5,2,4,x64578, 2021-10-27</li>
+                <li>Obodozie, Veronica Chigoziri (2019). Cubesat BDOT Control Modelling-Detumbling and Angular Momentum Management. Toronto Metropolitan University. Thesis. https://doi.org/10.32920/ryerson.14653200.v1</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function myAccFunc() {
+            var x = document.getElementById("demoAcc");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-green";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-green", "");
             }
-        </script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        }
+    </script>
 
 </body>
 </html>
